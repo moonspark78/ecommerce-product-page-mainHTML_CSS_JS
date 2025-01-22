@@ -151,3 +151,27 @@ h1{
     color: #b6bcc8;
     text-decoration: line-through;
 }
+
+.add-to-cart{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quantity-selector{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f7f8fd;
+    padding: 0.6rem;
+}
+
+.quantity-selector button{
+    border: none;
+    background: none;
+    color: #ff7d1a;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+}
