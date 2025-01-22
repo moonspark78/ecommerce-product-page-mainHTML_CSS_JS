@@ -122,35 +122,32 @@ h1{
     font-size: 1.1rem;
 }
 
-.price-container{
-    margin-bottom: 2rem;
-}
-
-.current-price{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.price-container {
     margin-bottom: 0.5rem;
 }
 
-.price{
-    font-size: 1.5rem;
-    font-weight: 700;
+.current-price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.4rem;
 }
 
-.discount{
-    color: orange;
-    font-size: 1.1rem;
-    font-weight: bold;
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.discount {
     background-color: #ffede0;
+    color: #ff7d1a;
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
+    font-weight: 700;
 }
 
-.original-price{
-    font-size: 1rem;
-    font-weight: 700;
+.original-price {
     color: #b6bcc8;
     text-decoration: line-through;
 }
-
