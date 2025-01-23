@@ -90,7 +90,7 @@ main{
 
 
 .thumbnail-images img{
-    width: 90px;
+    width: 80px;
     border-radius: 0.5rem;
     cursor: pointer;
     object-fit: cover;
@@ -190,4 +190,17 @@ h1{
     font-weight: 700;
     cursor: pointer;
     transition: opacity 0.2s;
+}
+
+@media screen and (max-width: 768px){
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+    .nav-links{
+        display: none;
+    }
+    .add-to-cart{
+        display: flex;
+        flex-direction: column;
+    }
 }
